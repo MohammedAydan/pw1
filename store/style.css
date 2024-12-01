@@ -1,0 +1,117 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f4f4f4;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-items: center;
+  justify-content: space-between;
+  align-items: center;
+  /* border-bottom: 1px solid #999; */
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header .logo {
+  text-decoration: none;
+  width: auto;
+  display: flex;
+  font-size: larger;
+  font-weight: bold;
+  color: #b72121;
+}
+
+header .account {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .account a {
+  text-decoration: none;
+  color: #333;
+  margin-left: 10px;
+  transition: color 0.3s ease;
+  font-weight: 600;
+}
+
+.store {
+  width: 100%;
+  max-width: 900px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.store .container{
+  width: 100%;
+}
+
+.store .card {
+  width: 100%;
+  background-color: #f4f4f4;
+  margin-top: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.store .card img{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.store .card .info{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.store .card .info h2{
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.store .card .info p{
+  margin-top: 20px;
+  color: #b72121;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.store .card button{
+  width: 150px;
+  padding: 10px 20px;
+  background-color: #b72121;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
